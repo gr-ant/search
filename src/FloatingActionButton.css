@@ -1,0 +1,24 @@
+.fab {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+  .fab-item {
+    margin-top: 10px;
+    cursor: pointer;
+    /* Define a standard size for your icons, change as needed */
+    width: 30px;
+    height: 30px;
+  }
+  
+  .fab-item:hover {
+    transform: translateY(-3.5px);
+    transition: transform 0.2s ease-in-out;
+  }
+
+.fab-item:active {
+    transform: scale(0.8);
+  }
